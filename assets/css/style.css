@@ -1,0 +1,90 @@
+body {
+	background-color: #f5dc31;
+	font-family: 'Oswald', sans-serif;
+	margin: 0 auto;
+
+}
+#container {
+	margin-left: 10px;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+}
+
+h2 {
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 35px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.stats_card {
+		border: solid;
+	border-width: 2px;
+	border-color: black;
+	float: left;
+
+	width: 180px;
+	/*height: 100px;*/
+
+	text-align: center;
+
+	margin-left: 5px;
+	margin-right: 5px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*Pre-Set Heights of divs*/
+#char_list{
+	height: 100px;
+}
+#enemy_list{
+	height: 100px;
+}
+#defend_list{
+	height: 100px;
+}
+
+
+/*Battle Comment*/
+#battle_comments{
+	clear: both;
+}
+
+
+
+/*--------------- Dynamic Styles for jQuery ---------------*/
+.enemy_stats_card{
+	background-color: #e60000;
+	border-color: black;
+}
+
+.your_stats_card{
+	border-color: #00ff00;
+}
+
+.defender_stats_card{
+	border-color: red;
+	background-color: black;
+	color: white;
+}
+
+.hide_dead_enemy{
+	/*visibility: hidden;*/
+	display: none;
+}
+
+.inline_bold{
+	font-weight: bold;
+}
+
