@@ -1,5 +1,7 @@
 # week-4-game
 
+Link to GitHub Page: https://evah98.github.io/week-4-game/
+
 <h1>Kill Bill: RPG Edition</h1>
 
 Quentin Tarantino's Kill Bill volumes 1 and 2 hold a special place in my heart, so much that I've watched the two films more times than I can count.
